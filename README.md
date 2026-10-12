@@ -1,5 +1,7 @@
 # National Geographic Photo of the Day for Home Assistant
 
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnaklicki&repository=natgeo-potd&category=integration)
+
 A custom integration that shows the National Geographic **Photo of the Day** in Home Assistant.
 It checks the official website every hour and downloads the image only when it changes.
 
