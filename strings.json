@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "National Geographic Photo of the Day",
+        "description": "Add the National Geographic Photo of the Day? It will be fetched from the official website every hour."
+      }
+    },
+    "abort": {
+      "already_configured": "This integration is already configured."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "domain": "natgeo_potd",
+  "name": "National Geographic Photo of the Day",
+  "codeowners": ["@pnaklicki"],
+  "config_flow": true,
+  "documentation": "https://github.com/pnaklicki/natgeo-potd",
+  "issue_tracker": "https://github.com/pnaklicki/natgeo-potd/issues",
+  "iot_class": "cloud_polling",
+  "integration_type": "service",
+  "requirements": [],
+  "version": "1.0.0"
+}

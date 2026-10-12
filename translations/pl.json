@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Zdjęcie dnia National Geographic",
+        "description": "Dodaje **Zdjęcie dnia National Geographic** do Home Assistant.\n\nIntegracja sprawdza oficjalną stronę National Geographic raz na godzinę i udostępnia:\n\n- **Kamerę**: dzisiejsze zdjęcie, z tytułem, opisem, autorem i linkiem do źródła w atrybutach. Pokażesz je na pulpicie kartą Picture Entity.\n- **Czujniki**: tytuł, autor, opis, ostatnia aktualizacja, rozmiar obrazu oraz statystyki API.\n\nNie potrzebujesz konta ani klucza API. Kliknij **Wyślij**, aby dodać integrację."
+      }
+    },
+    "abort": {
+      "already_configured": "Zdjęcie dnia National Geographic jest już skonfigurowane."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "title": {
+        "name": "Tytuł"
+      },
+      "author": {
+        "name": "Fotograf"
+      },
+      "description": {
+        "name": "Opis"
+      },
+      "last_updated": {
+        "name": "Ostatnia aktualizacja"
+      },
+      "image_size": {
+        "name": "Rozmiar obrazu"
+      },
+      "api_calls": {
+        "name": "Wywołania API"
+      },
+      "api_errors": {
+        "name": "Błędy API"
+      },
+      "last_error": {
+        "name": "Ostatni błąd"
+      }
+    }
+  }
+}

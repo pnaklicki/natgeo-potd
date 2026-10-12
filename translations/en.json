@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "National Geographic Photo of the Day",
+        "description": "Adds the **National Geographic Photo of the Day** to Home Assistant.\n\nThe integration checks the official National Geographic website once an hour and provides:\n\n- **Camera**: today's photo, with title, description, photographer and source link as attributes. Show it on a dashboard with a Picture Entity card.\n- **Sensors**: title, photographer, description, last update, image size, and API statistics.\n\nNo account or API key is needed. Click **Submit** to add it."
+      }
+    },
+    "abort": {
+      "already_configured": "The National Geographic Photo of the Day is already set up."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "title": {
+        "name": "Title"
+      },
+      "author": {
+        "name": "Photographer"
+      },
+      "description": {
+        "name": "Description"
+      },
+      "last_updated": {
+        "name": "Last updated"
+      },
+      "image_size": {
+        "name": "Image size"
+      },
+      "api_calls": {
+        "name": "API calls"
+      },
+      "api_errors": {
+        "name": "API errors"
+      },
+      "last_error": {
+        "name": "Last error"
+      }
+    }
+  }
+}
